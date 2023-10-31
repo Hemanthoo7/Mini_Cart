@@ -1,0 +1,27 @@
+{
+  "name": "dcw/cart",
+  "version": "1.0.0",
+  "description": "It will fix conflicts related to amasty/cart (amasty ajax shopping cart)",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "amasty/cart": "*"
+  },
+  "license": [
+    "OSL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Dotcomweavers",
+      "homepage": "https://www.dotcomweavers.com/"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Dcw\\Cart\\": ""
+    }
+  }
+}
